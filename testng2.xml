@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bipul">
+	<listeners>
+		<listener class-name="test.Listeners"/>
+	</listeners>
+	<parameter name="url" value="youtube.com"/>
+  <test name="Test">
+    <classes>
+      <class name="test.learn"/>
+      <class name="test.learn2"/>
+      <class name="test.learn3"/>
+      <class name="test.learn4"/>
+      <class name="test.learn5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

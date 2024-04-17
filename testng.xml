@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bipul">
+  <test name="Test">
+    <classes>
+      <class name="test.learn"/>
+      <class name="test.learn2">
+		  <methods>
+			  <include name ="d1"/>
+		  </methods>
+		 </class>
+      <class name="test.learn3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
